@@ -1,14 +1,14 @@
-module go-fiber-todo
+module github.com/sephrot/gofiber-basic-api
 
 go 1.17
 
-require github.com/gofiber/fiber/v2 v2.29.0
+require github.com/gofiber/fiber/v2 v2.37.0
 
 require (
 	github.com/andybalholm/brotli v1.0.4 // indirect
-	github.com/klauspost/compress v1.15.0 // indirect
+	github.com/klauspost/compress v1.15.9 // indirect
 	github.com/valyala/bytebufferpool v1.0.0 // indirect
-	github.com/valyala/fasthttp v1.34.0 // indirect
+	github.com/valyala/fasthttp v1.40.0 // indirect
 	github.com/valyala/tcplisten v1.0.0 // indirect
-	golang.org/x/sys v0.0.0-20220307203707-22a9840ba4d7 // indirect
+	golang.org/x/sys v0.0.0-20220906165534-d0df966e6959 // indirect
 )
